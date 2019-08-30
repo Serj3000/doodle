@@ -12,9 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layout');
 });
 
-Route::get('/some', function () {
-    exit('some fhgfh');
-});
+// Route::get('/some', function () {
+//     exit('some fhgfh');
+// });
