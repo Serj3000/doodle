@@ -11,10 +11,26 @@
 |
 */
 
+// Route::get('/', function () {
+//     return view('layout');
+// });
+
 Route::get('/', function () {
-    return view('layout');
+    return view('index');
 });
 
-// Route::get('/some', function () {
-//     exit('some fhgfh');
-// });
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
+Route::get('/archive-blog', function () {
+    return view('archive-blog');
+});
+
+Route::get('/single-post', function () {
+    return view('single-post');
+});
